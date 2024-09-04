@@ -1,4 +1,4 @@
-- name: play 2 tasks
+- name: play tasks
   host: web
   tasks: #list of tasks
    name: play-01 task-01
