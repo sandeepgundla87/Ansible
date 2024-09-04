@@ -1,5 +1,5 @@
--name: ping the server
-hosts: web #hosts which should be connected
-tasks: list of tasks
 - name: ping the server
-  ansible.builtin.ping:
+  hosts: web #hosts which should be connected
+  tasks: # list of tasks
+  - name: ping the server
+    ansible.builtin.ping:
