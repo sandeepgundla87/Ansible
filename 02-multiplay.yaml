@@ -1,6 +1,6 @@
-- name: play tasks
+- name: play-01
   host: web
   tasks: #list of tasks
    name: play-01 task-01
    ansible.builtin.debug: 
-    msg: "print play -1 task01"
+    msg: "print play-01 task-01"
